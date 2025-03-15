@@ -5,6 +5,8 @@ import { MainComponent } from './Components/main/main.component';
 import { SkillsComponent } from './Components/skills/skills.component';
 import { ExperienciaComponent } from './Components/experiencia/experiencia.component';
 import { ProyectosComponent } from './Components/proyectos/proyectos.component';
+import { FooterComponent } from './footer/footer.component';
+import { FormacionComponent } from './Components/formacion/formacion.component';
 
 @Component({
   selector: 'app-root',
@@ -16,6 +18,8 @@ import { ProyectosComponent } from './Components/proyectos/proyectos.component';
     SkillsComponent,
     ExperienciaComponent,
     ProyectosComponent,
+    FooterComponent,
+    FormacionComponent,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',

@@ -1,9 +1,52 @@
-/* Estilo opcional para las tarjetas */
-.introduccion .flex {
-  position: relative;
+/* styles.css */
+
+/* Estilos comunes para la línea central */
+.temporal-line {
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  height: 100%;
+  border-left: 2px solid #475569; /* Color slate-400 */
+  opacity: 0.6;
 }
 
-.introduccion .flex .bg-white {
-  position: relative;
-  z-index: 1;
+/* Estilos para la flecha hacia abajo */
+.temporal-arrow {
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #475569;
+  margin-bottom: -12px;
+  opacity: 0.6;
+}
+
+/* Estilos para las fechas */
+.temporal-date {
+  border-radius: 0.75rem; /* Rounded-lg */
+  color: #e2e8f0; /* Color slate-200 */
+}
+
+/* Estilo para ocultar las fechas en dispositivos móviles */
+.temporal-date-hidden {
+  display: none;
+}
+
+/* Estilos para mostrar la fecha en pantallas medianas y mayores */
+@media (min-width: 768px) {
+  .temporal-date-hidden {
+    display: flex;
+    align-items: center;
+    margin-bottom: 5rem;
+  }
+}
+
+/* Efecto de hover para las tarjetas */
+.temporal-card {
+  transition: background-color 0.3s, transform 0.3s ease-in-out; /* Añadir transición */
+}
+
+.temporal-card:hover {
+  transform: scale(1.05); /* Efecto de aumento en el tamaño */
+  background-color: #334155; /* Color slate-600 */
 }
