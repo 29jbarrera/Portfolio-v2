@@ -47,6 +47,6 @@
 }
 
 .temporal-card:hover {
-  transform: scale(1.05); /* Efecto de aumento en el tamaño */
+  transform: scale(1.03); /* Efecto de aumento en el tamaño */
   background-color: #334155; /* Color slate-600 */
 }

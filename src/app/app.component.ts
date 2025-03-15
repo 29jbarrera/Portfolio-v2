@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
 import { AsideComponent } from './Components/aside/aside.component';
 import { MainComponent } from './Components/main/main.component';
 import { SkillsComponent } from './Components/skills/skills.component';
@@ -12,7 +11,6 @@ import { FormacionComponent } from './Components/formacion/formacion.component';
   selector: 'app-root',
   standalone: true,
   imports: [
-    RouterOutlet,
     AsideComponent,
     MainComponent,
     SkillsComponent,
