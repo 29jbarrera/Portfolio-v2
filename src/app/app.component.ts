@@ -12,4 +12,5 @@ import { MainComponent } from './Components/main/main.component';
 })
 export class AppComponent {
   title = 'Portfolio-v2';
+
 }
