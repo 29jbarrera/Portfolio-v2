@@ -1,3 +1,11 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+  @apply font-sans;
+}
+
+.introduccion {
+  @apply mt-4 leading-relaxed;
+}
