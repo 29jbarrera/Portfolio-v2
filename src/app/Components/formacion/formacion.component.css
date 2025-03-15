@@ -1,0 +1,9 @@
+/* Estilo opcional para las tarjetas */
+.introduccion .flex {
+  position: relative;
+}
+
+.introduccion .flex .bg-white {
+  position: relative;
+  z-index: 1;
+}

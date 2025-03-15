@@ -1,0 +1,21 @@
+.skills{
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-text-size-adjust: 100%;
+    line-height: 1.42857143;
+    color: #000;
+    -webkit-font-smoothing: subpixel-antialiased;
+    font-weight: normal;
+    visibility: visible;
+    box-sizing: border-box;
+    vertical-align: middle;
+    border: 0;
+    max-width: 100%;
+    margin: 0 auto;
+    width: 60px;
+    filter: grayscale(100%);
+    transition: all .3s ease-in-out;
+}
+
+.skills:hover {
+    filter: grayscale(0%);
+  }
