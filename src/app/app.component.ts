@@ -24,33 +24,5 @@ import { FooterComponent } from './Components/footer/footer.component';
   styleUrl: './app.component.css',
 })
 export class AppComponent {
-  title = 'Portfolio-v2';
-
-  // constructor(private elRef: ElementRef) {}
-
-  // ngAfterViewInit() {
-  //   this.addScrollListener();
-  // }
-
-  // private addScrollListener() {
-  //   const scrollToTopBtn =
-  //     this.elRef.nativeElement.querySelector('.scroll-to-top');
-
-  //   window.addEventListener('scroll', () => {
-  //     if (scrollToTopBtn) {
-  //       if (window.scrollY > 300) {
-  //         scrollToTopBtn.classList.add('visible');
-  //       } else {
-  //         scrollToTopBtn.classList.remove('visible');
-  //       }
-  //     }
-  //   });
-  // }
-
-  // public scrollToTop() {
-  //   window.scrollTo({
-  //     top: 0,
-  //     behavior: 'smooth',
-  //   });
-  // }
+  title = 'Javier Barrera';
 }
