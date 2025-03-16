@@ -8,7 +8,7 @@
   border: 0;
   max-width: 100%;
   margin: 0 auto;
-  width: 60px;
+  width: 70px;
   filter: grayscale(100%);
   transition: all 0.3s ease-in-out;
 }

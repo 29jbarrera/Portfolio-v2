@@ -1,10 +1,10 @@
 .logo {
-  filter: grayscale(100%);
   transition: all 0.3s ease-in-out;
 }
 
 .logo:hover {
   filter: grayscale(0%);
+  filter: brightness(1.2);
   scale: 1.1;
 }
 
