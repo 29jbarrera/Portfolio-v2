@@ -1,6 +1,3 @@
-/* styles.css */
-
-/* Estilos comunes para la línea central */
 .temporal-line {
   position: absolute;
   left: 50%;
@@ -9,7 +6,6 @@
   border-left: 2px solid #b2b2bb;
 }
 
-/* Estilos para la flecha hacia abajo */
 .temporal-arrow {
   position: absolute;
   bottom: 0;
@@ -19,19 +15,16 @@
   margin-bottom: -12px;
 }
 
-/* Estilos para las fechas */
 .temporal-date {
   color: #e2e8f0;
   opacity: 0.5;
   font-size: small;
 }
 
-/* Estilo para ocultar las fechas en dispositivos móviles */
 .temporal-date-hidden {
   display: none;
 }
 
-/* Estilos para mostrar la fecha en pantallas medianas y mayores */
 @media (min-width: 768px) {
   .temporal-date-hidden {
     display: flex;
@@ -40,19 +33,19 @@
   }
 }
 
-/* Efecto de hover para las tarjetas */
 .temporal-card {
   background: linear-gradient(135deg, #fef9c3, #fde68a);
-  transition: box-shadow 0.4s ease-in-out; /* Añadir transición */
-  box-shadow: 0 4px 18px rgb(255, 255, 255, 0.6); /* Sombra blanca suave */
+  transition: box-shadow 0.4s ease-in-out;
+  box-shadow: 0 4px 18px rgb(255, 255, 255, 0.6);
 }
 
 .temporal-card:hover {
-  box-shadow: 0 6px 20px rgb(255, 255, 255, 0.61);
+  box-shadow: 0 6px 22px rgb(255, 255, 255, 0.63);
 }
 
 .titulotarjeta {
   color: #030712;
+  font-weight: bold;
 }
 
 .contenttarjeta {

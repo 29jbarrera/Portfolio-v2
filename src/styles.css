@@ -100,6 +100,7 @@ header {
 
 h2 {
   color: #e2e8f0;
+  font-weight: bold;
 }
 
 h3 {
@@ -113,4 +114,8 @@ h3 {
 
 .footer {
   color: #e2e8f0;
+}
+
+.footer:hover {
+  color: #fef08a;
 }
