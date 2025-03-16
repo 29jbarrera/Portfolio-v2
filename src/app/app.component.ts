@@ -1,4 +1,4 @@
-import { Component, ElementRef, AfterViewInit } from '@angular/core';
+import { Component } from '@angular/core';
 import { AsideComponent } from './Components/aside/aside.component';
 import { MainComponent } from './Components/main/main.component';
 import { SkillsComponent } from './Components/skills/skills.component';
