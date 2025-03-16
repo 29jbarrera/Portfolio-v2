@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, ElementRef, AfterViewInit } from '@angular/core';
 import { AsideComponent } from './Components/aside/aside.component';
 import { MainComponent } from './Components/main/main.component';
 import { SkillsComponent } from './Components/skills/skills.component';
@@ -25,4 +25,32 @@ import { FooterComponent } from './Components/footer/footer.component';
 })
 export class AppComponent {
   title = 'Portfolio-v2';
+
+  // constructor(private elRef: ElementRef) {}
+
+  // ngAfterViewInit() {
+  //   this.addScrollListener();
+  // }
+
+  // private addScrollListener() {
+  //   const scrollToTopBtn =
+  //     this.elRef.nativeElement.querySelector('.scroll-to-top');
+
+  //   window.addEventListener('scroll', () => {
+  //     if (scrollToTopBtn) {
+  //       if (window.scrollY > 300) {
+  //         scrollToTopBtn.classList.add('visible');
+  //       } else {
+  //         scrollToTopBtn.classList.remove('visible');
+  //       }
+  //     }
+  //   });
+  // }
+
+  // public scrollToTop() {
+  //   window.scrollTo({
+  //     top: 0,
+  //     behavior: 'smooth',
+  //   });
+  // }
 }

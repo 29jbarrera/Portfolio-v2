@@ -68,6 +68,7 @@ body {
   --tw-backdrop-sepia: ;
   height: 100%;
   margin: 0;
+  padding: 0;
   --tw-bg-opacity: 1;
   background-color: rgb(15 23 42 / var(--tw-bg-opacity));
   line-height: 1.625;
