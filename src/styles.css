@@ -92,10 +92,23 @@ header {
   color: #b2b2bb;
 }
 
+.date {
+  opacity: 0.5;
+}
+
 h2 {
   color: #e2e8f0;
 }
 
 h3 {
+  color: #e2e8f0;
+}
+
+.tag {
+  background-color: rgb(254 249 195 / 0.1);
+  color: rgb(254 240 138 / var(--tw-text-opacity, 1));
+}
+
+.footer {
   color: #e2e8f0;
 }

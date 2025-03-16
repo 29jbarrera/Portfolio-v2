@@ -39,7 +39,7 @@
 
 .nav-link:hover,
 .nav-link.active {
-  color: #fef9c3;
+  color: #fef08a;
 }
 
 .nav-indicator {
@@ -54,5 +54,5 @@
 .nav-link.active .nav-indicator {
   width: 5rem; /* w-16 */
   height: 3px; /* h-1 */
-  background-color: #fef9c3; /* bg-slate-200 */
+  background-color: #fef08a; /* bg-slate-200 */
 }
