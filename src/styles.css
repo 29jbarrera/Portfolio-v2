@@ -66,10 +66,12 @@ body {
   --tw-backdrop-opacity: ;
   --tw-backdrop-saturate: ;
   --tw-backdrop-sepia: ;
+  --color-zinc-800: oklch(0.274 0.006 286.033);
+  --color-zinc-900: oklch(0.21 0.006 285.885);
   --color-zinc-950: oklch(0.141 0.005 285.823);
   --color-verde-100: #e3f9e9;
   --color-amarillo-100: #fef9c3;
-  background-color: var(--color-zinc-950);
+  background: #030712;
   height: 100%;
   margin: 0;
   padding: 0;

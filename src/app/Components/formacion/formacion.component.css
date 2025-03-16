@@ -6,8 +6,7 @@
   left: 50%;
   transform: translateX(-50%);
   height: 100%;
-  border-left: 2px solid #475569; /* Color slate-400 */
-  opacity: 0.6;
+  border-left: 2px solid #b2b2bb;
 }
 
 /* Estilos para la flecha hacia abajo */
@@ -16,15 +15,15 @@
   bottom: 0;
   left: 50%;
   transform: translateX(-50%);
-  color: #475569;
+  color: #b2b2bb;
   margin-bottom: -12px;
-  opacity: 0.6;
 }
 
 /* Estilos para las fechas */
 .temporal-date {
-  border-radius: 0.75rem; /* Rounded-lg */
-  color: #e2e8f0; /* Color slate-200 */
+  color: #e2e8f0;
+  opacity: 0.5;
+  font-size: small;
 }
 
 /* Estilo para ocultar las fechas en dispositivos móviles */
@@ -43,10 +42,20 @@
 
 /* Efecto de hover para las tarjetas */
 .temporal-card {
-  transition: background-color 0.3s, transform 0.3s ease-in-out; /* Añadir transición */
+  background: linear-gradient(135deg, #fef9c3, #fde68a);
+  transition: box-shadow 0.4s ease-in-out; /* Añadir transición */
+  box-shadow: 0 4px 18px rgb(255, 255, 255, 0.6); /* Sombra blanca suave */
 }
 
 .temporal-card:hover {
-  transform: scale(1.03); /* Efecto de aumento en el tamaño */
-  background-color: #334155; /* Color slate-600 */
+  box-shadow: 0 6px 20px rgb(255, 255, 255, 0.61);
+}
+
+.titulotarjeta {
+  color: #030712;
+}
+
+.contenttarjeta {
+  color: #030712;
+  opacity: 0.8;
 }
