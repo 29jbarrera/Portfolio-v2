@@ -68,7 +68,7 @@ body {
   --tw-backdrop-sepia: ;
   --color-zinc-950: oklch(0.141 0.005 285.823);
   --color-verde-100: #e3f9e9;
-  --color-amarillo-100: #fdfff4;
+  --color-amarillo-100: #fef9c3;
   background-color: var(--color-zinc-950);
   height: 100%;
   margin: 0;
@@ -88,6 +88,14 @@ p {
   color: #b2b2bb;
 }
 
+header {
+  color: #b2b2bb;
+}
+
 h2 {
+  color: #e2e8f0;
+}
+
+h3 {
   color: #e2e8f0;
 }

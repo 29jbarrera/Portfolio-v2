@@ -1,0 +1,4 @@
+.tag {
+  background-color: rgb(254 249 195 / 0.1);
+  color: rgb(254 240 138 / var(--tw-text-opacity, 1));
+}
