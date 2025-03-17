@@ -29,6 +29,7 @@
   letter-spacing: 0.1em;
   color: #b2b2bb;
   transition: color 0.3s ease;
+  width: 200px;
 }
 
 .nav-link:hover,
