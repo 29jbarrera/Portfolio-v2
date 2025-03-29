@@ -1,0 +1,21 @@
+{
+    "name": "Javier Barrera",
+    "short_name": "JavierB",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#000000",
+    "icons": [
+      {
+        "src": "/assets/ico/J.png",
+        "type": "image/png",
+        "sizes": "192x192"
+      },
+      {
+        "src": "/assets/ico/J.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ]
+  }
+  
