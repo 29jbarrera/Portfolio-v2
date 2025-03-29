@@ -1,27 +1,33 @@
-# PortfolioV2
+# Portfolio V2
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.2.
+## Descripción
 
-## Development server
+Soy Javier, programador Full-Stack. Este es mi portafolio personal, donde puedes encontrar detalles sobre mi experiencia, proyectos y habilidades.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Tecnologías
 
-## Code scaffolding
+Esta son todas las técnologias utilizadas para el desarrollo :
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+- **HTML, CSS, TypeScript, Angular, Tailwind CSS**
+- **GitHub, Figma, Vercel**
 
-## Build
+## Características
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+- Diseño limpio y moderno
+- Responsive (compatible con dispositivos móviles)
+- Sección de experiencia profesional con detalles
+- Sección de proyectos con detalles sobre cada uno de ellos
+- Sección de formación profesional informativa
+- Sección de redes sociales
 
-## Running unit tests
+## Licencia
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+El archivo `LICENSE` contiene los términos completos de uso y restricción del proyecto.
 
-## Running end-to-end tests
+## Contacto
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+Email: 29jbarrera@gmail.com
 
-## Further help
+GitHub: 29jbarrera
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+LinkedIn: [Javier Barrera](https://www.linkedin.com/in/javier-barrera-lopez/)
