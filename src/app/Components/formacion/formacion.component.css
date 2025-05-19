@@ -4,6 +4,7 @@
   transform: translateX(-50%);
   height: 100%;
   border-left: 2px solid #b2b2bb;
+  opacity: 0.9;
 }
 
 .temporal-arrow {
@@ -13,6 +14,7 @@
   transform: translateX(-50%);
   color: #b2b2bb;
   margin-bottom: -12px;
+  opacity: 0.9;
 }
 
 .temporal-date {
@@ -34,21 +36,26 @@
 }
 
 .temporal-card {
-  background: linear-gradient(135deg, #fef9c3, #fde68a);
-  transition: box-shadow 0.4s ease-in-out;
-  box-shadow: 0 4px 18px rgb(255, 255, 255, 0.6);
+  background: linear-gradient(to bottom right, #fefce8, #ffffff, #fef3c7);
+  border: 2px solid #fef08a;
+  border-radius: 1rem;
+  padding: 1.5rem;
+  transition: all 0.3s ease;
 }
 
 .temporal-card:hover {
-  box-shadow: 0 6px 22px rgb(255, 255, 255, 0.63);
+  transform: translateY(-3px);
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(189, 192, 95, 0.3);
 }
 
 .titulotarjeta {
-  color: #030712;
+  color: #ca9f04;
   font-weight: bold;
 }
 
 .contenttarjeta {
   color: #030712;
-  opacity: 0.8;
+  opacity: 0.9;
 }
