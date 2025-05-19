@@ -29,7 +29,7 @@ header {
 }
 
 .date {
-  opacity: 0.5;
+  @apply opacity-60;
 }
 
 h1 {
@@ -54,14 +54,19 @@ h3 {
 
 .custom-div-card-experience {
   @apply absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none 
-         lg:-inset-x-6 lg:block lg:group-hover:bg-sky-900/15
+         lg:-inset-x-6 lg:block lg:group-hover:bg-neutral-100/5
          lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg;
 }
 
 .custom-div-card-project {
   @apply absolute -inset-x-4 -inset-y-4 z-0 hidden rounded-md transition motion-reduce:transition-none 
-  lg:-inset-x-6 lg:block lg:group-hover:bg-sky-900/15 
+  lg:-inset-x-6 lg:block lg:group-hover:bg-neutral-100/5
   lg:group-hover:shadow-[inset_0_1px_0_0_rgba(148,163,184,0.1)] lg:group-hover:drop-shadow-lg;
+}
+
+.custom-arrow {
+  font-size: 10px;
+  margin-top: 3px;
 }
 
 .footer {
