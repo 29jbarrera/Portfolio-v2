@@ -51,3 +51,21 @@
   height: 3px;
   background-color: #fef08a;
 }
+
+.tag-available {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background-color: #d4f5d4; /* verde claro */
+  color: #28a745; /* verde vibrante para texto */
+  font-weight: 600;
+  padding: 6px 14px;
+  border: 2px solid #28a745; /* borde verde vibrante */
+  border-radius: 20px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 14px;
+  user-select: none;
+}
+.icon-check {
+  flex-shrink: 0;
+}
