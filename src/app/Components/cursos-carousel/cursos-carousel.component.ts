@@ -15,23 +15,18 @@ register();
 export class CursosCarouselComponent {
   courses = [
     {
-      title: 'Angular Profesional',
-      img: 'assets/cursos/Angular_Udemy_JBL.png',
+      title: 'Angular de Cero a Experto',
+      img: 'assets/cursos/Angular_Udemy_JBL.webp',
       plataforma: 'Udemy',
     },
     {
-      title: 'NestJS Backend',
-      img: 'assets/cursos/Angular_Udemy_JBL.png',
+      title: 'Legacy - Node: De cero a experto',
+      img: 'assets/cursos/Node_Udemy_JBL.webp',
       plataforma: 'Udemy',
     },
     {
-      title: 'Docker desde cero',
-      img: 'assets/cursos/Angular_Udemy_JBL.png',
-      plataforma: 'Udemy',
-    },
-    {
-      title: 'Fundamentos de TypeScript',
-      img: 'assets/cursos/Angular_Udemy_JBL.png',
+      title: 'VSCode: Mejora tu velocidad para codificar',
+      img: 'assets/cursos/VSCODE_Udemy_JBL.webp',
       plataforma: 'Udemy',
     },
   ];
