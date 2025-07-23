@@ -10,7 +10,7 @@
   },
   "private": true,
   "dependencies": {
-    "@angular/animations": "^17.3.0",
+    "@angular/animations": "^17.3.12",
     "@angular/common": "^17.3.0",
     "@angular/compiler": "^17.3.0",
     "@angular/core": "^17.3.0",
@@ -20,6 +20,7 @@
     "@angular/router": "^17.3.0",
     "@vercel/analytics": "^1.5.0",
     "rxjs": "~7.8.0",
+    "swiper": "^11.2.10",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.3"
   },

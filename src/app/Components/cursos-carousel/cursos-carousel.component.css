@@ -1,0 +1,33 @@
+.card {
+  width: 100%;
+  height: 100%;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  border-radius: 15px;
+  object-fit: cover;
+  border: 1px solid #b9bac0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
+}
+
+.card-body {
+  border-top: 1px solid #b9bac0;
+  padding-top: 10px;
+  text-align: center;
+  height: 300px;
+}
+
+.card-body h3 {
+  padding-top: 7px;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.card-body p {
+  color: #5b5b5b;
+  font-size: 0.9rem;
+}

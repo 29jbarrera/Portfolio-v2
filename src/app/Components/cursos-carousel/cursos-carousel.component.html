@@ -1,0 +1,48 @@
+<div class="flex justify-center pt-4" id="cursos">
+  <h2 class="flex items-center gap-2 text-center text-xl mb-14">
+    <img src="/assets/ico/formacion.webp" alt="Cursos" class="w-10 mr-2" />
+    Cursos
+  </h2>
+</div>
+
+<section
+  id="coruses"
+  class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"
+  aria-label="Courses"
+>
+  <div class="flex justify-center lg:w-[700px] m-auto w-full rounded-xl">
+    <swiper-container
+      effect="coverflow"
+      coverflow-effect='{
+    "rotate": 15,
+    "stretch": 0,
+    "depth": 630,
+    "modifier": 2.5,
+    "slideShadows": true
+  }'
+      slides-per-view="auto"
+      centered-slides="true"
+      grab-cursor="true"
+      pagination="true"
+      class="tarjetero-swiper"
+      style="height: 455px; width: 100%"
+    >
+      <swiper-slide
+        *ngFor="let course of courses"
+        class="flex justify-center"
+        style="width: 440px"
+      >
+        <div class="card rounded-xl">
+          <div class="p-4 bg-[#e3e8f0]">
+            <img [src]="course.img" alt="{{ course.title }}" />
+          </div>
+
+          <div class="card-body rounded-b-xl bg-yellow-200">
+            <h3 class="text-slate-950">{{ course.title }}</h3>
+            <p>{{ course.plataforma }}</p>
+          </div>
+        </div>
+      </swiper-slide>
+    </swiper-container>
+  </div>
+</section>
