@@ -17,3 +17,23 @@
   filter: grayscale(0%);
   transform: scale(1.15);
 }
+
+.skills-figma {
+  line-height: 1.5;
+  -webkit-font-smoothing: subpixel-antialiased;
+  font-weight: normal;
+  visibility: visible;
+  box-sizing: border-box;
+  vertical-align: middle;
+  border: 0;
+  max-width: 100%;
+  margin: 0 auto;
+  width: 45px;
+  filter: grayscale(100%);
+  transition: all 0.3s ease-in-out;
+}
+
+.skills-figma:hover {
+  filter: grayscale(0%);
+  transform: scale(1.15);
+}
