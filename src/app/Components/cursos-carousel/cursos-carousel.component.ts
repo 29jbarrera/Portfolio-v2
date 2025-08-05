@@ -20,6 +20,11 @@ export class CursosCarouselComponent {
       plataforma: 'Udemy',
     },
     {
+      title: 'JavaScript (ES2023 & ES2024)',
+      img: 'assets/cursos/JavaScript_Midudev_JBL.webp',
+      plataforma: 'Midudev',
+    },
+    {
       title: 'Legacy - Node: De cero a experto',
       img: 'assets/cursos/Node_Udemy_JBL.webp',
       plataforma: 'Udemy',
