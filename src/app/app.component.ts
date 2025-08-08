@@ -8,6 +8,8 @@ import { ProyectosComponent } from './Components/proyectos/proyectos.component';
 import { FormacionComponent } from './Components/formacion/formacion.component';
 import { FooterComponent } from './Components/footer/footer.component';
 import { CursosCarouselComponent } from './Components/cursos-carousel/cursos-carousel.component';
+import { TranslateModule, TranslateService } from '@ngx-translate/core';
+import { CommonModule } from '@angular/common';
 
 @Component({
   selector: 'app-root',
@@ -21,6 +23,8 @@ import { CursosCarouselComponent } from './Components/cursos-carousel/cursos-car
     FooterComponent,
     FormacionComponent,
     CursosCarouselComponent,
+    TranslateModule,
+    CommonModule,
   ],
   templateUrl: './app.component.html',
   styleUrl: './app.component.css',
@@ -28,4 +32,18 @@ import { CursosCarouselComponent } from './Components/cursos-carousel/cursos-car
 })
 export class AppComponent {
   title = 'Javier Barrera';
+
+  constructor(public translate: TranslateService) {
+    const savedLang = localStorage.getItem('lang') || 'es';
+    this.translate.use(savedLang);
+  }
+  get currentLang() {
+    return this.translate.getCurrentLang();
+  }
+
+  changeLang(event: Event) {
+    const lang = (event.target as HTMLSelectElement).value;
+    localStorage.setItem('lang', lang);
+    this.translate.use(lang);
+  }
 }

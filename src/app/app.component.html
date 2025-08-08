@@ -9,6 +9,18 @@
     </header>
 
     <main id="content" class="pt-24 lg:w-[100%] lg:py-24">
+      <!-- Selector idioma -->
+      <div class="flex justify-end mb-6">
+        <select
+          class="border border-gray-300 rounded px-2 py-1 text-sm"
+          [value]="currentLang"
+          (change)="changeLang($event)"
+        >
+          <option value="es">Español</option>
+          <option value="en">English</option>
+        </select>
+      </div>
+
       <section
         id="about"
         class="mb-16 scroll-mt-16 md:mb-24 lg:mb-36 lg:scroll-mt-24"

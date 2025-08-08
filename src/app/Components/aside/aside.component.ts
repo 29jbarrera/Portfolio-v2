@@ -1,9 +1,10 @@
 import { Component, AfterViewInit } from '@angular/core';
+import { TranslateModule } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-aside',
   standalone: true,
-  imports: [],
+  imports: [TranslateModule],
   templateUrl: './aside.component.html',
   styleUrl: './aside.component.css',
 })
